@@ -1,0 +1,78 @@
+@charset "utf-8";
+/*初始化样式*/
+body{ margin:0px; padding:0px; margin:0px auto; zoom:1;
+
+/*设置字体*/
+font-size:14px;
+line-height:24px;
+font-family:Arial,"微软雅黑","宋体";
+color:#414446;
+background-color:white;
+
+/*设置宽度*/
+width:100%; 
+height: 100%;
+}
+ul,li,form, dl,dt,dd, div{ padding: 0px; margin: 0px;}
+ul,ul li{ list-style:none;}
+.h1,.h2,.h3,.h4,.h5,.h6,.p{ padding:0px; margin:0px;}
+select,input,textarea{-webkit-appearance: none; border-radius:0; -webkit-border-radius:0; color:#414446;}
+input:focus { outline: none;}
+
+/*强制去除表单自带的样式*/ 
+input,button,select,textarea{outline:none;/*-webkit-appearance:none;*/}
+
+/*强制去除textarea自带的样式*/
+textarea{resize:none;/*-webkit-appearance:none;*/}
+
+textarea,input,select { background:none; border:none; margin:0; padding:0;}
+
+/*html5设置*/
+article,aside,footer,header,hgroup,nav,section,figure,figcaption{ display: block;} 
+figure,figcaption{ margin:0px; padding:0px;}
+audio,canvas,progress,video { display: inline-block; vertical-align: baseline;}
+
+img{max-width: 100%; border:none; border:0; vertical-align:baseline;transition: all ease .5s;}
+a{ color:inherit; text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+a:focus {outline:none; -moz-outline:none;}
+/* a:hover{ text-decoration:none; color:inherit;} */
+p,h3,h4{margin: 0px;}
+
+
+
+
+.container{width: 1200px;margin: 0px auto;box-sizing: border-box;}
+.list{padding: 50px 150px;position: relative; border-bottom: 1px solid #999999;}
+.list .title{font-weight: bold; font-size: 20px;line-height: 40px;text-align: center;}
+.list .item{display:flex;align-items: center;justify-content: center;color: white;font-size: 18px;line-height: 40px;}
+.list .gallery .item{height: 300px;;}
+.list .gallery6{position: relative; margin: 20px 0px;}
+.list .gallery6 .item{height: 120px;;}
+.list .gallery6 .item{opacity: 0.5;}
+.list .gallery6 .gallery-wrapper .gallery-item-active .item{opacity: 1;}
+.list .gallery8 .gallery-item{transition: all 0.5s ease;}
+.list .gallery9{width: 400px;margin: 0px auto;}
+.list .gallery9 .gallery-item{transition: all 0.5s ease;}
+.list .gallery9 .gallery-wrapper-outer{overflow: visible;}
+.list .gallery9 .gallery-item{opacity: 0.5;transform: scale(0.8);}
+.list .gallery9 .gallery-item-active{opacity: 1;transform: scale(1);}
+.list2{overflow: hidden;}
+
+.contain .tab{height: 40px;line-height: 40px;margin: 30px 0px;;}
+.contain .tab li{cursor: pointer; transition: all 0.5s ease; border: 1px solid #999999;text-align: center; display: inline-block;margin-right: 30px; width: 120px;border-radius: 5px;border: 1}
+.contain .tab li:hover,.contain .tab .on{background: #4390EE;border-color: #4390EE;color: white;}
+.contain .cont li{width: 100%;height: 200px;display:flex;align-items: center;justify-content: center;color: white;}
+.contain2 .menu{width: 270px;position: relative;}
+.contain2 .menu li{margin-bottom: 2px; line-height: 50px;}
+.contain2 .menu li p{background-image: url(../image/arrow1.png);background-position: right center;background-repeat: no-repeat; font-size: 16px; transition: all 0.5s ease; height: 50px;padding: 0px 15px;box-sizing: border-box;background-color: #f1f1f1;;}
+.contain2 .menu li dl{display:none; padding: 0px 30px;box-sizing: border-box;}
+.contain2 .menu li dd{cursor: pointer;}
+.contain2 .menu li dd:hover{color: #4390EE;}
+.contain2 .menu li p:hover,.contain2 .menu .on p{background-color: #4390EE;color: white;}
+.contain2 .menu .on p{background-image: url(../image/arrow.png);}
+
+
+
+
+
+
